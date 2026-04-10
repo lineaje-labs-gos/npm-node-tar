@@ -2,13 +2,13 @@
   "author": "Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)",
   "name": "tar",
   "description": "tar for node",
-  "version": "4.4.17",
+  "version": "4.4.17-lineaje-01",
   "publishConfig": {
     "tag": "v4-legacy"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/npm/node-tar.git"
+    "url": "https://github.com/lineaje-labs-gos/npm-node-tar"
   },
   "scripts": {
     "test:posix": "tap",
@@ -41,6 +41,12 @@
     "tar-stream": "^1.6.2"
   },
   "license": "ISC",
+  "contributors": [
+    {
+      "name": "Lineaje DepFixer",
+      "email": "221268890+Lineaje-DepFixer@users.noreply.github.com"
+    }
+  ],
   "engines": {
     "node": ">=4.5"
   },
