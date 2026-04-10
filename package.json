@@ -57,5 +57,8 @@
   "tap": {
     "coverage-map": "map.js",
     "check-coverage": true
+  },
+  "overrides": {
+    "tar": ">=7.5.11"
   }
 }
